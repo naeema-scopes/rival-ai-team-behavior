@@ -14,11 +14,11 @@ root = Path(".")
 ver, runs = root / "phase2_verified", root / "phase2_runs"
 files = {
     "README_FIRST_summary.md": Path(a.summary),
-    "plan_and_method/PHASE2_PLAN.md": root / "PHASE2_PLAN.md",
-    "plan_and_method/METHODOLOGY_AUDIT.md": root / "METHODOLOGY_AUDIT.md",
-    "plan_and_method/CHANGES_log.md": root / "CHANGES.md",
-    "plan_and_method/brief_v1.md": root / "brief_v1.md",
-    "plan_and_method/brief_v2.md": root / "brief_v2.md",
+    "plan_and_method/PHASE2_PLAN.md": root / "docs" / "PHASE2_PLAN.md",
+    "plan_and_method/METHODOLOGY_AUDIT.md": root / "docs" / "METHODOLOGY_AUDIT.md",
+    "plan_and_method/CHANGES_log.md": root / "docs" / "CHANGES.md",
+    "plan_and_method/brief_v1.md": root / "docs" / "brief_v1.md",
+    "plan_and_method/brief_v2.md": root / "docs" / "brief_v2.md",
 }
 reports = ["primary_analysis.md", "stats_report.md", "verification_report.md", "reasoning_report.md", "team_dynamics.md",
            "team_splits.md", "role_analysis.md", "fact_disclosure.md", "flagship_disclosure.md", "cot_mismatch.md"]

@@ -133,7 +133,7 @@ rules and more lopsided deals cancel out, and honesty barely varies. This is why
 - **Size:** the target was 64 games per version. A spending rule set in advance stopped the run at **56 per version
   (448 games)**. The smallest difference the study can detect: d = 0.53 between two versions, d = 0.27 for each main factor.
 - **Interim looks:** we looked at early descriptive results twice during the run. The stop was set by the budget rule, not by the results.
-- **Changes after the pilots,** all decided before the main run and logged in `CHANGES_log.md`:
+- **Changes after the pilots,** all decided before the main run and logged in `docs/CHANGES.md`:
   - the per-turn condition reminder, which was not piloted;
   - "any deception counts as lying";
   - DeepSeek as the second judge, which passed a quality check after the first 64 games (96% agreement);
@@ -144,14 +144,6 @@ rules and more lopsided deals cancel out, and honesty barely varies. This is why
   coding the reasoning and team chats of already-finished games cost slightly more than estimated. All three pilots
   together cost about $6.
 
-## What's in this folder
+## Where things are
 
-| Folder | Contents |
-|---|---|
-| `README_FIRST_summary.md` | this summary |
-| `reports/` | full results: `primary_analysis.md` (main hypotheses), `stats_report.md` (the brief's statistics), verification, reasoning, team dynamics, roles, disclosure; plots |
-| `spot_check/` | disputed items with full context: `spot_check_sample` (83 items) and `spot_check_full` (1,298 items), as .md to read and .csv to record decisions |
-| `data/` | the datasets behind every number |
-| `transcripts/` | every game, readable, with its final rules |
-| `plan_and_method/` | the briefs, the Phase 2 plan, the methodology audit, and the full change log |
-| `code/` | everything needed to rerun it |
+See the repository README for the folder layout. The full change log is `docs/CHANGES.md`.

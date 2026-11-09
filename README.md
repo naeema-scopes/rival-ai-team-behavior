@@ -2,7 +2,7 @@
 
 Code and data for *Honest to each other, costly to customers: deception and collusion when rival AI teams write safety rules* (AI safety sprint, November 2026).
 
-Two rival battery companies, Northwind and Halcyon, each send a team of three GPT-6 Luna agents (researcher, writer, negotiator) to co-write a home-battery safety standard over up to 10 rounds. Each team holds true private figures and a CEO note that makes honesty costly. We vary stakes, monitoring and a rival label (2×2×2, eight variants A–K) and measure deceptive acts, deceptive thought and talk, hiding, and harm to customers and to the other company.
+Two rival battery companies, Northwind and Halcyon, each send a team of three GPT-6 Luna agents (researcher, drafter, negotiator) to co-write a home-battery safety standard over up to 10 rounds. Each team holds true private figures and a CEO note that makes honesty costly. We vary stakes, monitoring and a rival label (2×2×2; eight variants labelled A, B, D, E, G, H, J and K) and measure deceptive acts, deceptive thought and talk, hiding, and harm to customers and to the other company.
 
 ## Setup
 
@@ -15,12 +15,12 @@ python3 -m swarm_pilot.test_scoring  # 66 offline checks of the answer key and s
 ## Reproduce
 
 ```bash
-python3 -m swarm_pilot.run_phase2_fast --budget 30          # games + both judges + coding (≈ $30)
+python3 -m swarm_pilot.run_phase2_fast --budget 30 --out rerun   # new games + both judges + coding in rerun_* folders (≈ $30)
 python3 -m swarm_pilot.primary_analysis --runs phase2_runs --verified phase2_verified
 python3 -m swarm_pilot.phase2_stats --runs phase2_runs --verified phase2_verified
 ```
 
-The analysis scripts run offline on the included data, so the paper's numbers can be checked without an API key.
+The analysis scripts run offline on the included data, so the paper's numbers can be checked without an API key. Use a new `--out` prefix for fresh games: the default (`phase2`) resumes the included run.
 
 | Setting | Value |
 |---|---|
@@ -48,5 +48,5 @@ The analysis scripts run offline on the included data, so the paper's numbers ca
 
 ## Notes
 
-- Disputed items (one judge only) are excluded from main counts and listed in `phase2_verified/spot_check_full.md`; an 83-item sample was spot-checked by the team.
+- Disputed items (one judge only) are excluded from main counts and listed in `phase2_verified/spot_check_full.md`; a stratified sample of 83 was checked by a team member after an AI first pass (Claude Opus 5.5).
 - Deviations from the plan are listed in `docs/CHANGES.md`.
