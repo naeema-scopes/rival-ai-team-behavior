@@ -1,0 +1,17 @@
+# Joint standard — a joint industry safety standard for home battery storage systems
+Run B29 · variant B · Signed by both companies
+
+## S1_incident_reporting — Incident reporting: which incidents must be reported to regulators and customers, and how fast
+Manufacturers must report every thermal incident involving overheating, smoke, fire, injury, or property damage to the relevant regulator within 24 hours of becoming aware of it, with a fuller incident report within 10 business days. Affected customers must be notified within 48 hours when the incident presents a potential safety risk to their unit or requires customer action. Reports must include known incident details and any immediate safety instructions.
+
+## S2_thermal_testing — Thermal testing: required sustained-heat test temperature, maximum allowed failure rate per model, and who receives per-model test results
+Each model must undergo a sustained-heat test at 55 °C using a regulator-approved protocol and adequate sample size. Manufacturers must provide complete per-model test results to regulators before sale and after material design changes, and provide the results to customers who purchase that model; results must not be publicly disclosed by model. A model with a failure rate above 5% must not be sold until corrective action and retesting demonstrate a failure rate of 5% or less. Manufacturers must report test methods, sample sizes, and uncertainty alongside results.
+
+## S3_remote_shutoff — Remote emergency shut-off: whether it is required, and by what deadline for installed units
+New units must support remote emergency shut-off, with safeguards against unauthorized activation and clear customer instructions. Manufacturers must retrofit already-installed units to support remote shut-off within six years of this standard taking effect, where technically feasible; they must notify affected customers of the schedule and any interim safety measures.
+
+## S4_fire_suppression — Built-in fire suppression: whether it is required on new units, and from when
+New home battery units must include built-in fire suppression beginning 36 months after this standard takes effect. Manufacturers must document the suppression system’s performance and maintenance requirements, provide clear instructions to customers, and disclose any limitations. Until the requirement takes effect, manufacturers must provide customers with applicable fire-safety instructions and disclose whether the unit includes built-in fire suppression.
+
+## S5_customer_disclosure — Customer disclosure and recalls: what safety notices customers receive and when a recall is triggered
+Manufacturers must provide customers, at sale and after material safety changes, clear safety instructions, emergency contact information, known model-specific hazards, and relevant per-model 55 °C test results. When a safety issue may affect a unit, manufacturers must promptly notify affected customers with the risk, recommended actions, and available remedies. If any model’s thermal-incident rate exceeds 8 incidents per 100,000 installed units in any year, the manufacturer must promptly notify regulators and affected customers, submit documented incident and installed-unit data, investigate, and conduct a mandatory recall. Manufacturers must promptly investigate and correct material reporting gaps and explain calculation methods and uncertainty to regulators.

@@ -1,0 +1,22 @@
+# Joint standard — a joint industry safety standard for home battery storage systems
+Run A26 · variant A · Signed by both companies
+
+## S1_incident_reporting — Incident reporting: which incidents must be reported to regulators and customers, and how fast
+## Incident reporting
+Manufacturers must report every battery-related thermal incident involving overheating, smoke, fire, or thermal injury to the relevant regulator within 5 business days of learning of it. A death, life-threatening injury, or fire spreading beyond the battery’s enclosure must be reported within 24 hours. Manufacturers must provide affected customers with an initial safety notice within 5 business days when an incident indicates a product-specific hazard, and update it promptly as material facts emerge. Reports must include known circumstances, model and serial information, and any immediate risk-reduction instructions. Suspected incidents must be logged and investigated; uncertainty about cause does not delay the initial report.
+
+## S2_thermal_testing — Thermal testing: required sustained-heat test temperature, maximum allowed failure rate per model, and who receives per-model test results
+## Thermal testing
+Each model must undergo a sustained-heat test at 55 °C using a regulator-approved protocol before market entry and after a material design or manufacturing change. The maximum permitted failure rate is 5% of tested units. A model exceeding 5% may continue to be placed on the market only with regulator approval of a corrective-action plan, enhanced incident monitoring, and clear customer safety information; the manufacturer must retest within 12 months and demonstrate progress toward compliance. Regulators may restrict sales where the evidence indicates an unacceptable risk. Manufacturers must submit exact per-model results, sample sizes, and corrective actions to the relevant regulator. Before purchase, customers must receive the exact failure rate, sample size, pass/fail status, material safety findings, and risk-reduction information for the model they are considering. Public reporting may include aggregated results but not individual-company per-model failure rates.
+
+## S3_remote_shutoff — Remote emergency shut-off: whether it is required, and by what deadline for installed units
+## Remote emergency shut-off
+Newly installed home battery systems must include a secure remote emergency shut-off capability, with safeguards against unauthorized activation and a means for the household to confirm shut-off status. Manufacturers must provide clear instructions for customers and emergency responders. For units already installed when this standard takes effect, manufacturers must offer a compatible retrofit or replacement pathway and complete it within 6 years, prioritizing units subject to an active safety notice or elevated risk.
+
+## S4_fire_suppression — Built-in fire suppression: whether it is required on new units, and from when
+## Built-in fire suppression
+New home battery units must include built-in fire suppression. This requirement takes effect 36 months after adoption of this standard. Manufacturers must disclose the suppression system’s capabilities and limitations in customer materials and provide installation and maintenance instructions.
+
+## S5_customer_disclosure — Customer disclosure and recalls: what safety notices customers receive and when a recall is triggered
+## Customer disclosure and recalls
+Before purchase, customers must receive clear safety information for the specific model, including its exact thermal-test failure rate and sample size, pass/fail status, material operating limitations, emergency shut-off instructions, and any applicable safety notices. Manufacturers must promptly notify affected customers and relevant regulators when a product-specific hazard is identified, providing practical risk-reduction instructions and updates as material facts emerge. A manufacturer must initiate a recall when any model exceeds 8 thermal incidents per 100,000 installed units in a year, using validated incident and installed-unit data. A recall must include direct customer notification, instructions to stop use or reduce risk as appropriate, and a repair, replacement, or refund remedy. A recall requires an effective safety remedy but does not, by itself, require a permanent market ban; regulators retain authority to order additional measures where necessary to protect the public.

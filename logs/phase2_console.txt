@@ -1,0 +1,29 @@
+{
+ "variants": "A,B,D,E,G,H,J,K",
+ "target_per_variant": 64,
+ "chunk": 8,
+ "budget": 30.0,
+ "agent_model": "openai/gpt-6-luna (low, pinned OpenAI)",
+ "judge_a": {
+  "model": "anthropic/claude-haiku-5.5",
+  "effort": "high",
+  "provider": null
+ },
+ "judge_b": {
+  "model": "deepseek/deepseek-v4.1-flash",
+  "effort": "high",
+  "provider": [
+   "DeepInfra"
+  ]
+ },
+ "folders": {
+  "runs": "phase2_runs",
+  "judge_b": "phase2_deepseek",
+  "verified": "phase2_verified"
+ }
+}
+
+=== chunk: 0 → 8 runs per variant (spent so far $0.00) ===
+$ run_pilot (games + Haiku) with DeepSeek judging finished games alongside
+$ swarm_pilot.rescore --runs phase2_runs
+$ swarm_pilot.rejudge --src phase2_runs --out phase2_deepseek --judge deepseek/deepseek-v4.1-flash --judge-effort high --judge-provider DeepInfra --judge-max-tokens 64000 --workers 30

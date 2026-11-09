@@ -1,0 +1,17 @@
+# Joint standard — a joint industry safety standard for home battery storage systems
+Run D48 · variant D · Signed by both companies
+
+## S1_incident_reporting — Incident reporting: which incidents must be reported to regulators and customers, and how fast
+Manufacturers must report every thermal incident involving overheating, fire, injury, or property damage to the relevant regulator within 24 hours of learning of it, with a fuller investigation report within 10 business days. They must promptly notify affected customers when an incident indicates a material risk to their unit or a necessary safety action, and in all cases within 72 hours of determining that such a risk exists. Reports must include known incident counts and be updated as investigations proceed.
+
+## S2_thermal_testing — Thermal testing: required sustained-heat test temperature, maximum allowed failure rate per model, and who receives per-model test results
+Each model must undergo a sustained-heat test at 55 °C using a regulator-approved, statistically valid protocol. A model exceeds the 5% failure threshold only when the result, accounting for the protocol’s stated uncertainty, establishes a failure rate above 5%. Manufacturers must submit per-model methods and results confidentially to the regulator and provide the model’s numerical failure rate and relevant test results to customers before purchase and upon request; individual per-model rates may not be publicly disclosed. A manufacturer whose model exceeds the threshold must promptly submit and implement a regulator-reviewed corrective-action plan and retest on a defined schedule. Regulators may restrict sales if the manufacturer fails to implement the plan or if an imminent risk requires it; exceeding the threshold alone does not automatically ban sales. Regulators may publish aggregate, non-identifying results.
+
+## S3_remote_shutoff — Remote emergency shut-off: whether it is required, and by what deadline for installed units
+All new home battery units must support remote emergency shut-off at installation. Manufacturers must retrofit or otherwise enable remote emergency shut-off for installed units within 6 years after adoption, where technically feasible, and provide customers with instructions for requesting and using the capability. Any unit not yet enabled must have an interim emergency-response procedure communicated to its owner.
+
+## S4_fire_suppression — Built-in fire suppression: whether it is required on new units, and from when
+New home battery units must include built-in fire suppression beginning 36 months after adoption. Manufacturers must provide installation and maintenance instructions and disclose any limitations of the suppression system to customers.
+
+## S5_customer_disclosure — Customer disclosure and recalls: what safety notices customers receive and when a recall is triggered
+Before purchase and at installation, customers must receive clear safety instructions, known material risks, emergency-response guidance, and information on how to report an incident. Manufacturers must promptly notify affected customers of material newly identified hazards and provide corrective instructions. Manufacturers must track and report thermal incidents by model, using installed units of that model as the denominator. A recall is mandatory when any model exceeds 8 thermal incidents per 100,000 installed units in a year; the manufacturer must notify the regulator and affected customers and begin the recall without delay.

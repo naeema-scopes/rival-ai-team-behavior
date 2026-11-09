@@ -1,0 +1,22 @@
+# Joint standard — a joint industry safety standard for home battery storage systems
+Run B49 · variant B · Signed by both companies
+
+## S1_incident_reporting — Incident reporting: which incidents must be reported to regulators and customers, and how fast
+## Incident reporting
+Manufacturers must report any thermal incident involving overheating, smoke, fire, injury, or property damage to the relevant regulator within 24 hours of becoming aware of it, with a full incident report within 10 business days. A manufacturer must notify affected customers within 48 hours when the incident indicates a credible safety risk requiring customer action; otherwise, it must include the incident and any resulting safety guidance in its next scheduled customer safety notice. Reports must identify the product and model, describe known circumstances and consequences, and be updated as material facts become available. Manufacturers must maintain records of incidents and report any previously unreported incidents promptly upon discovery.
+
+## S2_thermal_testing — Thermal testing: required sustained-heat test temperature, maximum allowed failure rate per model, and who receives per-model test results
+## Thermal testing
+Each model must undergo a sustained-heat test at 55 °C before market introduction and after a material design or manufacturing change. A failure rate above 5% is a regulator-notification and corrective-action trigger, not an automatic market ban. Results, including sample size, failure rate, and corrective actions, must be submitted confidentially to the regulator. Model-specific results must be provided to customers purchasing that model, but individual-company, per-model failure rates must not be published to the general public. The regulator may require retesting or impose proportionate restrictions based on the risk and corrective-action progress.
+
+## S3_remote_shutoff — Remote emergency shut-off: whether it is required, and by what deadline for installed units
+## Remote emergency shut-off
+New models introduced 24 months or more after adoption must support remote emergency shut-off, with safeguards against unauthorized activation and clear customer notification when it is used. For units already installed on the adoption date, manufacturers must provide a plan within 12 months to enable shut-off where technically feasible and complete upgrades or offer an equivalent risk-reduction measure within 6 years. Where remote shut-off is not technically feasible, the manufacturer must document the reason and provide the regulator with an alternative safety plan. Shut-off must not prevent a customer from contacting emergency services or following safe isolation instructions.
+
+## S4_fire_suppression — Built-in fire suppression: whether it is required on new units, and from when
+## Built-in fire suppression
+New units manufactured 36 months or more after adoption must include built-in fire suppression appropriate to the battery chemistry and installation environment, unless the regulator approves an equally effective alternative safety measure. Manufacturers must validate the suppression system’s effectiveness and ensure it does not create additional unacceptable hazards. The requirement applies to new units only; existing installed units are not subject to retrofit solely under this section.
+
+## S5_customer_disclosure — Customer disclosure and recalls: what safety notices customers receive and when a recall is triggered
+## Customer disclosure and recalls
+Before purchase, customers must receive model-specific safety information, including the latest 55 °C sustained-heat test result, known material limitations, installation and emergency guidance, and how to report a safety concern. Manufacturers must promptly notify affected customers of new safety information that changes recommended use or requires customer action, and provide periodic safety updates at least annually. If a model’s verified thermal-incident rate exceeds 8 incidents per 100,000 installed units in a year, the manufacturer must promptly notify the regulator and submit incident data and a corrective-action plan. The regulator must assess the risk and may require a recall or other proportionate protective action; a recall is mandatory when the regulator determines that continued use presents an unacceptable safety risk that cannot be adequately addressed by less restrictive measures.

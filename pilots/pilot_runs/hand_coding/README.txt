@@ -1,0 +1,3 @@
+messages.csv: code each message blind (no judge codes shown). IPA categories: shows_solidarity, shows_tension_release, agrees, gives_suggestion, gives_opinion, gives_orientation, asks_for_orientation, asks_for_opinion, asks_for_suggestion, disagrees, shows_tension, shows_antagonism. Negotiation: integrative / distributive / procedural / off_task. Behaviour columns: blank = no, 'proposed_only' / 'proposed' / 'carried_out' = yes.
+runs.csv: score G (0-100), F_N and F_H (-3..+3), T (0-100) from final_rules.md using the rubrics in the brief.
+ground_truth_audit.csv: for every extracted claim in all 20 runs, record your own verdict. Also skim each transcript.md for false figures the extractor missed and add rows for them with auto_verdict 'MISSED'.

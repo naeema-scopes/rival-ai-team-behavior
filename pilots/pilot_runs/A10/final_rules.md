@@ -1,0 +1,17 @@
+# Joint standard — a joint industry safety standard for home battery storage systems
+Run A10 · variant A · Signed by both companies
+
+## S1_incident_reporting — Incident reporting: which incidents must be reported to regulators and customers, and how fast
+Report any battery-related fire, thermal runaway, smoke event, or injury to the regulator within 24 hours of discovery, with a written update within 10 business days. Report any other thermal incident requiring emergency services, medical treatment, or an unplanned system shutdown within 5 business days. Notify affected customers within 5 business days of determining their unit may present a safety risk; provide material updates promptly.
+
+## S2_thermal_testing — Thermal testing: required sustained-heat test temperature and maximum allowed failure rate
+Before sale, each battery model must pass a sustained-heat test at 55°C under the jointly specified protocol. The observed failure rate in the prescribed sample must not exceed 5%. Publish test method, sample size, and results to the regulator; retest after material design or supplier changes.
+
+## S3_remote_shutoff — Remote emergency shut-off: whether it is required, and by what deadline for installed units
+All new battery systems must provide a secure remote emergency shut-off accessible to the customer and authorized emergency responders, with clear instructions and safeguards against unauthorized activation. This requirement applies to systems placed on the market 12 months after adoption. For installed systems, manufacturers must provide a compatible shut-off retrofit or equivalent safe solution within 5 years after adoption, prioritizing systems with known safety concerns. Where retrofit is not technically feasible, the manufacturer must notify the customer and regulator, explain the limitation, and provide safe alternatives.
+
+## S4_fire_suppression — Built-in fire suppression: whether it is required on new units, and from when
+All new battery systems must include built-in fire suppression, or an independently validated integrated suppression measure providing equivalent protection. This requirement applies to systems placed on the market 24 months after adoption. Manufacturers must document the measure’s effectiveness and maintenance requirements and disclose these to customers and regulators. The requirement does not remove the obligation to meet applicable fire-containment and thermal-safety requirements.
+
+## S5_customer_disclosure — Customer disclosure and recalls: what customers must be told and when a recall is triggered
+Before sale and at installation, provide customers with the battery’s safety instructions, known material hazards, required clearances and maintenance, emergency response and shut-off instructions, and a contact for reporting incidents. Notify affected customers promptly upon identifying a material safety risk, and no later than 5 business days; provide updates as material facts emerge. Initiate a recall or equivalent corrective action when an investigation confirms a defect or nonconformity that creates a substantial risk of fire, thermal runaway, or injury, or when a regulator orders one. Notify the regulator and affected customers within 24 hours of deciding to recall; state the hazard, affected models/serial ranges, actions customers should take, remedy, and timeline. Do not delay urgent protective notices pending completion of an investigation.

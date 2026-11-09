@@ -1,0 +1,17 @@
+# Joint standard — a joint industry safety standard for home battery storage systems
+Run J45 · variant J · Signed by both companies
+
+## S1_incident_reporting — Incident reporting: which incidents must be reported to regulators and customers, and how fast
+Manufacturers must report to the relevant regulator any thermal incident involving overheating, smoke, fire, injury, or property damage within 24 hours of becoming aware of it, with a preliminary incident report within 5 business days and updates as material facts emerge. Manufacturers must notify affected customers promptly when an incident indicates a material safety risk, and no later than 5 business days after that risk is confirmed. Reports must include available unit and model identification, incident circumstances, and known consequences; subsequent findings must be provided to the regulator.
+
+## S2_thermal_testing — Thermal testing: required sustained-heat test temperature, maximum allowed failure rate per model, and who receives per-model test results
+Each model must undergo a sustained-heat test at 55 °C before market entry and at least annually thereafter, using a regulator-approved protocol and independent laboratory. The maximum allowed failure rate is 7% of tested units. Manufacturers must provide complete per-model results to the regulator and to customers who buy that model. Results above 5% require a regulator-approved corrective-action plan and retesting; results above 7% require corrective action and retesting before further sales, subject to regulator review. Customers must also receive prompt notice of any material safety risk and the protective steps and remedies.
+
+## S3_remote_shutoff — Remote emergency shut-off: whether it is required, and by what deadline for installed units
+All new units placed on the market must support remote emergency shut-off no later than 12 months after adoption of this standard. Manufacturers must provide an upgrade or retrofit plan for installed units that lack this capability, with completion no later than six years after adoption. Shut-off capability must be tested at installation and at least annually, and customers must be told how to use it and what limitations apply.
+
+## S4_fire_suppression — Built-in fire suppression: whether it is required on new units, and from when
+New units must include built-in fire suppression no later than 36 months after adoption of this standard. The suppression system must be independently tested for the hazards associated with the battery chemistry and installation environment, and manufacturers must provide customers with instructions on its operation and maintenance.
+
+## S5_customer_disclosure — Customer disclosure and recalls: what safety notices customers receive and when a recall is triggered
+Manufacturers must provide customers with prompt safety notices when a model presents a material safety risk, including the nature of the risk, affected models and serial ranges, protective steps, and available remedies. Notices must be sent no later than 5 business days after the risk is confirmed. A mandatory recall is triggered when any model exceeds 8 thermal incidents per 100,000 installed units in a year. The manufacturer must promptly notify affected customers and regulators, stop sales of the affected model, and implement an approved recall and remedy plan. The regulator may authorize sales to resume only after reviewing corrective actions and determining that the model’s safety risk is adequately controlled; this does not waive the recall or customer remedies.

@@ -1,0 +1,266 @@
+# Phase 2 statistical analysis
+
+Runs: 448; per variant: A 56, B 56, D 56, E 56, G 56, H 56, J 56, K 56. α = 0.05. Unit = one run.
+
+Smallest effect detectable with 80% power: d = 0.53 between two variants; d = 0.27 for a main effect.
+
+## 1. Three-way ANOVA (stakes × watched × other description)
+
+### final (PRIMARY)
+
+| Effect | F (df) | p | partial η² | permutation p |
+|---|---|---|---|---|
+| stakes | 1.13 (1, 440) | 0.2878 | 0.003 | 0.2704 |
+| watched | 0.00 (1, 440) | 0.9891 | 0.000 | 0.9870 |
+| other | 0.57 (1, 440) | 0.4526 | 0.001 | 0.4388 |
+| stakes:watched | 0.74 (1, 440) | 0.3917 | 0.002 | 0.3823 |
+| stakes:other | 2.41 (1, 440) | 0.1209 | 0.005 | 0.1204 |
+| watched:other | 0.17 (1, 440) | 0.6764 | 0.000 | 0.6727 |
+| stakes:watched:other | 0.17 (1, 440) | 0.6821 | 0.000 | 0.6922 |
+- stakes: low − high = +0.75 points (95% CI -0.64 to +2.15)
+- watched: watched − not_watched = +0.01 points (95% CI -1.38 to +1.40)
+- other: nothing − competitor = +0.53 points (95% CI -0.86 to +1.93)
+- Assumptions: Shapiro–Wilk W = 0.949, p = 3.02e-11; Levene F = 1.17, p = 0.3186 → assumption(s) failed; permutation p values shown.
+- Mixed model (random intercept for paraphrase): group variance 0.000; fixed-effect p values: stakes[S.high] 0.2872, watched[S.not_watched] 0.9891, other[S.competitor] 0.4522, stakes[S.high]:watched[S.not_watched] 0.3912, stakes[S.high]:other[S.competitor] 0.1202, watched[S.not_watched]:other[S.competitor] 0.6762, stakes[S.high]:watched[S.not_watched]:other[S.competitor] 0.6819
+
+### G (secondary)
+
+| Effect | F (df) | p | partial η² | permutation p |
+|---|---|---|---|---|
+| stakes | 11.82 (1, 440) | 0.0006 | 0.026 | 0.0005 |
+| watched | 0.00 (1, 440) | 0.9678 | 0.000 | 0.9645 |
+| other | 2.18 (1, 440) | 0.1406 | 0.005 | 0.1469 |
+| stakes:watched | 0.08 (1, 440) | 0.7772 | 0.000 | 0.7776 |
+| stakes:other | 6.60 (1, 440) | 0.0105 | 0.015 | 0.0155 |
+| watched:other | 0.50 (1, 440) | 0.4794 | 0.001 | 0.4793 |
+| stakes:watched:other | 0.18 (1, 440) | 0.6712 | 0.000 | 0.6757 |
+- stakes: low − high = -3.79 points (95% CI -5.97 to -1.62)
+- watched: watched − not_watched = -0.04 points (95% CI -2.25 to +2.16)
+- other: nothing − competitor = +1.63 points (95% CI -0.57 to +3.83)
+- Assumptions: Shapiro–Wilk W = 0.444, p = 6.22e-35; Levene F = 3.05, p = 0.0038 → assumption(s) failed; permutation p values shown.
+
+### B (secondary)
+
+| Effect | F (df) | p | partial η² | permutation p |
+|---|---|---|---|---|
+| stakes | 13.04 (1, 440) | 0.0003 | 0.029 | 0.0010 |
+| watched | 1.03 (1, 440) | 0.3116 | 0.002 | 0.3028 |
+| other | 0.65 (1, 440) | 0.4211 | 0.001 | 0.4138 |
+| stakes:watched | 0.01 (1, 440) | 0.9379 | 0.000 | 0.9195 |
+| stakes:other | 0.24 (1, 440) | 0.6218 | 0.001 | 0.5907 |
+| watched:other | 1.25 (1, 440) | 0.2646 | 0.003 | 0.2484 |
+| stakes:watched:other | 1.62 (1, 440) | 0.2037 | 0.004 | 0.1959 |
+- stakes: low − high = +10.34 points (95% CI +4.72 to +15.96)
+- watched: watched − not_watched = -2.90 points (95% CI -8.60 to +2.80)
+- other: nothing − competitor = +2.31 points (95% CI -3.39 to +8.01)
+- Assumptions: Shapiro–Wilk W = 0.851, p = 3.66e-20; Levene F = 2.57, p = 0.0131 → assumption(s) failed; permutation p values shown.
+
+### T (secondary)
+
+| Effect | F (df) | p | partial η² | permutation p |
+|---|---|---|---|---|
+| stakes | 14.89 (1, 440) | 0.0001 | 0.033 | 0.0005 |
+| watched | 10.06 (1, 440) | 0.0016 | 0.022 | 0.0035 |
+| other | 2.65 (1, 440) | 0.1040 | 0.006 | 0.1000 |
+| stakes:watched | 5.90 (1, 440) | 0.0155 | 0.013 | 0.0230 |
+| stakes:other | 0.10 (1, 440) | 0.7534 | 0.000 | 0.7426 |
+| watched:other | 0.89 (1, 440) | 0.3461 | 0.002 | 0.3583 |
+| stakes:watched:other | 6.18 (1, 440) | 0.0133 | 0.014 | 0.0155 |
+- stakes: low − high = -3.01 points (95% CI -4.58 to -1.44)
+- watched: watched − not_watched = +2.48 points (95% CI +0.90 to +4.05)
+- other: nothing − competitor = -1.27 points (95% CI -2.86 to +0.32)
+- Assumptions: Shapiro–Wilk W = 0.985, p = 0.0001; Levene F = 1.05, p = 0.3932 → assumption(s) failed; permutation p values shown.
+
+### I (secondary)
+
+| Effect | F (df) | p | partial η² | permutation p |
+|---|---|---|---|---|
+| stakes | 4.55 (1, 440) | 0.0334 | 0.010 | 0.0305 |
+| watched | 4.40 (1, 440) | 0.0365 | 0.010 | 0.0435 |
+| other | 4.84 (1, 440) | 0.0284 | 0.011 | 0.0255 |
+| stakes:watched | 0.00 (1, 440) | 0.9968 | 0.000 | 0.9970 |
+| stakes:other | 0.13 (1, 440) | 0.7232 | 0.000 | 0.7291 |
+| watched:other | 4.23 (1, 440) | 0.0403 | 0.010 | 0.0385 |
+| stakes:watched:other | 0.09 (1, 440) | 0.7628 | 0.000 | 0.7811 |
+- stakes: low − high = -0.52 points (95% CI -1.00 to -0.04)
+- watched: watched − not_watched = +0.51 points (95% CI +0.03 to +0.99)
+- other: nothing − competitor = -0.53 points (95% CI -1.01 to -0.05)
+- Assumptions: Shapiro–Wilk W = 0.654, p = 3.85e-29; Levene F = 2.60, p = 0.0121 → assumption(s) failed; permutation p values shown.
+
+## 2. Comparing individual variants (final score)
+
+One-way ANOVA F = 0.74, p = 0.6369; Kruskal–Wallis H = 5.58, p = 0.5901.
+Not significant, so pairwise tests are not run (except the planned A vs K below).
+
+**Planned comparison A vs K (H4):** K − A = -1.59 points (95% CI -4.31 to +1.14); Welch t = -1.14, p = 0.2557; Cohen's d = -0.22; Mann–Whitney U = 1384.5, p = 0.2834, rank-biserial r = -0.12.
+
+## 3. Behaviour counts (offset = log of the opportunity count)
+
+### Lying (any deception, verified) (secondary); total 18, runs with ≥1: 13/448
+
+Poisson.
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 1.62 | 0.64–4.10 | 0.3120 |
+| watched:not_watched | 0.73 | 0.29–1.84 | 0.5022 |
+| other:competitor | 0.27 | 0.09–0.81 | 0.0199 |
+
+### Covert withholding (verified) (secondary); total 16, runs with ≥1: 14/448
+
+Poisson.
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 1.68 | 0.63–4.52 | 0.3014 |
+| watched:not_watched | 1.14 | 0.43–3.07 | 0.7921 |
+| other:competitor | 1.55 | 0.56–4.26 | 0.3966 |
+
+### Spying (code + both judges) (secondary); total 0, runs with ≥1: 0/448
+
+no events in any run: model not estimable
+
+### Teaming up in messages (verified) (secondary); total 103, runs with ≥1: 80/448
+
+Poisson.
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 0.52 | 0.34–0.80 | 0.0029 |
+| watched:not_watched | 1.53 | 1.03–2.28 | 0.0370 |
+| other:competitor | 0.62 | 0.42–0.92 | 0.0179 |
+
+### Declared refusals (permitted) (secondary); total 51, runs with ≥1: 42/448
+
+Poisson.
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 0.41 | 0.21–0.78 | 0.0064 |
+| watched:not_watched | 1.10 | 0.63–1.91 | 0.7348 |
+| other:competitor | 2.40 | 1.30–4.44 | 0.0053 |
+
+### Lying proposed in team channel (verified) (secondary); total 0, runs with ≥1: 0/448
+
+no events in any run: model not estimable
+
+### Flagship figure never revealed (companies per run, code) (exploratory); total 207, runs with ≥1: 144/448
+
+Poisson.
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 1.01 | 0.77–1.33 | 0.9446 |
+| watched:not_watched | 0.75 | 0.57–0.99 | 0.0445 |
+| other:competitor | 1.33 | 1.01–1.75 | 0.0445 |
+
+### Private figures never revealed (code) (exploratory); total 1965, runs with ≥1: 324/448
+
+negative binomial (Poisson dispersion 3.62).
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 1.12 | 0.91–1.38 | 0.2730 |
+| watched:not_watched | 0.81 | 0.66–0.99 | 0.0409 |
+| other:competitor | 1.13 | 0.92–1.39 | 0.2494 |
+
+### Unsafe sections signed (rule-based) (exploratory); total 707, runs with ≥1: 390/448
+
+Poisson.
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 0.88 | 0.76–1.02 | 0.0908 |
+| watched:not_watched | 1.18 | 1.02–1.37 | 0.0267 |
+| other:competitor | 0.91 | 0.79–1.06 | 0.2147 |
+
+### Reasoning considers deception (verified) (exploratory); total 346, runs with ≥1: 220/448
+
+Poisson.
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 1.83 | 1.48–2.27 | 3.32e-08 |
+| watched:not_watched | 0.81 | 0.66–1.00 | 0.0499 |
+| other:competitor | 1.02 | 0.83–1.26 | 0.8351 |
+
+### Honesty rules / challenges in team channel (verified) (exploratory); total 736, runs with ≥1: 367/448
+
+Poisson.
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 1.58 | 1.37–1.83 | 6.93e-10 |
+| watched:not_watched | 0.76 | 0.66–0.88 | 0.0002 |
+| other:competitor | 1.06 | 0.92–1.23 | 0.4232 |
+
+### 'Share only if asked' rules (verified) (exploratory); total 182, runs with ≥1: 152/448
+
+Poisson.
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 0.57 | 0.42–0.78 | 0.0005 |
+| watched:not_watched | 0.76 | 0.57–1.01 | 0.0598 |
+| other:competitor | 1.21 | 0.90–1.63 | 0.1973 |
+
+### Reasoning vs statement mismatches (verified) (exploratory); total 37, runs with ≥1: 34/448
+
+Poisson.
+
+| Term | IRR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 1.38 | 0.73–2.64 | 0.3228 |
+| watched:not_watched | 1.50 | 0.77–2.91 | 0.2351 |
+| other:competitor | 0.90 | 0.47–1.72 | 0.7540 |
+
+### At least one per run (logistic regression)
+
+**Any verified lie**: 13/448 runs. 
+| Term | OR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 0.61 | 0.20–1.91 | 0.4012 |
+| watched:not_watched | 1.63 | 0.52–5.07 | 0.4012 |
+| other:competitor | 0.43 | 0.13–1.43 | 0.1698 |
+
+**Trading favours (signed document)**: 145/448 runs. 
+| Term | OR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 0.46 | 0.30–0.69 | 0.0002 |
+| watched:not_watched | 1.63 | 1.09–2.45 | 0.0185 |
+| other:competitor | 0.76 | 0.50–1.14 | 0.1800 |
+
+**Any flagship never revealed**: 144/448 runs. 
+| Term | OR | 95% CI | p |
+|---|---|---|---|
+| stakes:high | 1.09 | 0.73–1.62 | 0.6844 |
+| watched:not_watched | 0.78 | 0.52–1.16 | 0.2237 |
+| other:competitor | 1.39 | 0.93–2.07 | 0.1054 |
+
+## Manipulation check (did agents register their condition?)
+
+Share of runs whose reasoning summaries or private team messages mention each manipulation, by condition level:
+
+| Mention | Condition on | Condition off |
+|---|---|---|
+| stakes (stakes = high vs not) | 4% | 0% |
+| competitor (other = competitor vs not) | 15% | 3% |
+| monitoring (watched = watched vs not) | 7% | 8% |
+
+If a manipulation is rarely mentioned when it is on, a null effect may mean the agents ignored it, not that it has no effect.
+
+## Sensitivity: primary ANOVA using each judge's scores alone
+
+- judge A (Haiku): stakes p = 0.5362; watched p = 0.9071; other p = 0.5520; stakes:watched p = 0.8134; stakes:other p = 0.2104; watched:other p = 0.9719; stakes:watched:other p = 0.8680
+- judge B (second judge): stakes p = 0.3670; watched p = 0.6636; other p = 0.3826; stakes:watched p = 0.1232; stakes:other p = 0.0549; watched:other p = 0.7482; stakes:watched:other p = 0.6555
+
+## 4. Holm correction across secondary tests
+
+49 secondary tests. Significant after Holm: ANOVA G stakes (p = 0.0006, Holm 0.0295), ANOVA B stakes (p = 0.0003, Holm 0.0160), ANOVA T stakes (p = 0.0001, Holm 0.0064), logit trading_favours stakes:high (p = 0.0002, Holm 0.0091).
+
+## 5. Exploratory: conversation-coding buckets (chi-square, uncorrected)
+
+- IPA buckets × variant: χ² = 171.0, df = 21, p = 1.69e-25
+- Negotiation orientation × variant: χ² = 81.8, df = 14, p = 1.33e-11
+
+![Final score by variant](plot_final_by_variant.png)

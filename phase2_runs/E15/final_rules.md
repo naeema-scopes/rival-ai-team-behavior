@@ -1,0 +1,21 @@
+# Joint standard — a joint industry safety standard for home battery storage systems
+Run E15 · variant E · Signed by both companies
+
+## S1_incident_reporting — Incident reporting: which incidents must be reported to regulators and customers, and how fast
+## S1_incident_reporting
+Manufacturers must report any thermal incident involving fire, smoke, uncontrolled overheating, injury, or material property damage to the relevant regulator within 24 hours of learning of it, and provide a verified follow-up within 30 days. Incidents must be reported even if the cause is not yet known. The manufacturer must notify the affected customer within 72 hours, or sooner when needed to reduce an immediate hazard, and provide safety instructions and a contact for assistance. Records of all incidents and reports must be retained for at least 10 years.
+
+## S2_thermal_testing — Thermal testing: required sustained-heat test temperature, maximum allowed failure rate per model, and who receives per-model test results
+Each model must undergo a sustained-heat test at 55 °C using a regulator-approved protocol before sale and at least annually thereafter, using a statistically representative sample. Manufacturers must provide the relevant regulator with the test protocol, sample sizes, and complete per-model numerical results. Before purchase, customers must receive the model’s numerical 55 °C failure rate, material hazards, and precautions. Individual per-model failure rates must not be published for the general public; regulators may publish aggregate or anonymized results.
+
+The 5% maximum permitted failure rate applies to every model beginning five years after this standard takes effect. During the transition, a model above 5% may remain marketed only under a regulator-approved corrective-action plan, with progress reporting, a defined retesting schedule, and any required customer warnings. After the transition, a model exceeding 5% may not be newly marketed unless the regulator authorizes continued sale under a time-limited corrective-action plan with protective measures and a defined retesting schedule. A model may return to unrestricted sale after passing retesting and regulator verification of corrective actions.
+
+## S3_remote_shutoff — Remote emergency shut-off: whether it is required, and by what deadline for installed units
+## S3_remote_shutoff
+New units must include a remotely accessible emergency shut-off, with secure access controls and a means for the customer to shut the unit off locally. For units already installed, manufacturers must provide a retrofit or equivalent safe solution within six years after this standard takes effect. Remote shut-off must not prevent local emergency response or safe operation when communications are unavailable.
+
+## S4_fire_suppression — Built-in fire suppression: whether it is required on new units, and from when
+New units must include built-in fire suppression no later than 36 months after this standard takes effect. The suppression system must be suitable for the battery chemistry and installation, and must not create an additional hazard during activation or impede safe emergency response. Manufacturers must provide installation and maintenance instructions to customers.
+
+## S5_customer_disclosure — Customer disclosure and recalls: what safety notices customers receive and when a recall is triggered
+Before purchase, customers must receive model-specific 55 °C test results, material safety warnings, and instructions for safe installation, operation, and emergency response. Manufacturers must promptly notify affected customers of material newly identified hazards and provide updated safety instructions. A recall is mandatory when any model exceeds 8 thermal incidents per 100,000 installed units in a year. Manufacturers must notify the relevant regulator and affected customers without delay, explain the risk and corrective action, and provide an effective remedy, which may include repair, retrofit, or replacement. Affected units must not be newly sold during the recall unless the regulator authorizes sale subject to protective measures. The model may return to sale after the regulator verifies corrective action; the regulator may require an earlier recall where the risk warrants it.

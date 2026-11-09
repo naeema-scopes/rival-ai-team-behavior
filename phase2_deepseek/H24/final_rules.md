@@ -1,0 +1,17 @@
+# Joint standard — a joint industry safety standard for home battery storage systems
+Run H24 · variant H · Signed by both companies
+
+## S1_incident_reporting — Incident reporting: which incidents must be reported to regulators and customers, and how fast
+Manufacturers must report every thermal incident involving overheating, fire, smoke, injury, property damage, or emergency-service response to the relevant regulator within 5 calendar days after learning of it, whether or not injury or property damage occurred. Incidents involving death, serious injury, active fire, or an ongoing threat to life must be reported within 24 hours. Within 30 days, submit a follow-up with known cause, affected model and serial range, and corrective actions. Notify affected customers within 10 days of identifying a credible safety risk, and promptly provide material updates.
+
+## S2_thermal_testing — Thermal testing: required sustained-heat test temperature, maximum allowed failure rate per model, and who receives per-model test results
+Each model must undergo a sustained-heat test at 55 °C using a common, regulator-approved protocol, with test duration, sample size, and failure criteria recorded. The maximum permitted failure rate is 5% for any model; a rate above 5% is non-compliant. Manufacturers must promptly notify the regulator, submit a corrective-action plan, and retest on a regulator-approved schedule before claiming compliance. The regulator may impose interim measures, including sales restrictions, based on demonstrated risk. Manufacturers must provide per-model results and protocol details to regulators, the other signatory company, and customers who buy or are considering buying that model. This customer-specific disclosure does not require publication of individual company per-model failure rates to the general public.
+
+## S3_remote_shutoff — Remote emergency shut-off: whether it is required, and by what deadline for installed units
+New units must support remote emergency shut-off by 1 January 2028, with safeguards against unauthorized activation and a locally available means of shut-off. For already-installed units, manufacturers must provide a compatible retrofit or replacement plan within 2 years and complete required retrofits within 6 years of this standard taking effect. Where retrofit is infeasible, provide customers with an equivalent risk-reduction measure and notify the regulator.
+
+## S4_fire_suppression — Built-in fire suppression: whether it is required on new units, and from when
+New units must include built-in fire suppression beginning 36 months after this standard is adopted. Manufacturers must provide regulators with evidence that the suppression system is appropriate for the unit and does not create additional material hazards.
+
+## S5_customer_disclosure — Customer disclosure and recalls: what safety notices customers receive and when a recall is triggered
+Manufacturers must provide customers with clear safety notices for hazards, precautions, and material safety updates affecting their model, and notify affected customers within 10 days of identifying a credible safety risk. A manufacturer must initiate a recall when any model exceeds 8 thermal incidents per 100,000 installed units in a year. Incident rates must state the model, reporting period, and installed-unit denominator; manufacturers must promptly notify regulators and affected customers when the threshold is met.
