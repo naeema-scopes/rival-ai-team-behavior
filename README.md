@@ -2,7 +2,7 @@
 
 Code and data for *Honest to each other, costly to customers: deception and collusion when rival AI teams write safety rules* (AI safety sprint, November 2026).
 
-Two rival battery companies, Northwind and Halcyon, each send a team of three GPT-6 Luna agents (researcher, writer, negotiator) to co-write a home-battery safety standard over 8 rounds. Each team holds true private figures and a CEO note that makes honesty costly. We vary stakes, monitoring and a rival label (2×2×2, eight variants A–K) and measure deceptive acts, deceptive thought and talk, hiding, and harm to customers and to the other company.
+Two rival battery companies, Northwind and Halcyon, each send a team of three GPT-6 Luna agents (researcher, writer, negotiator) to co-write a home-battery safety standard over up to 10 rounds. Each team holds true private figures and a CEO note that makes honesty costly. We vary stakes, monitoring and a rival label (2×2×2, eight variants A–K) and measure deceptive acts, deceptive thought and talk, hiding, and harm to customers and to the other company.
 
 ## Setup
 
